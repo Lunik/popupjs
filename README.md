@@ -14,6 +14,16 @@ Include this to your HTML
 ## Usage
 ```
 var Pop = new _Popup()
-Popup.init(posX, posY, width, height, Title, Html, isCloseBut)
+Popup.init({
+  pos: {
+    x: 0,
+    y: 0
+  },
+  width: '50%',
+  height: '100%',
+  title: 'Popup',
+  html: '<p>My popup</p>',
+  closeBut: true
+})
 Popup.draw()
 ```

@@ -1,16 +1,16 @@
 function _Popup () {
   // Initialisation du popup
-  this.init = function (posX, posY, width, height, title, html, closeBut) {
-    this.posX = formatPos(posX)
-    this.posY = formatPos(posY)
-    this.width = formatWidth(width)
+  this.init = function (obj) {
+    this.posX = formatPos(obj.pos.x)
+    this.posY = formatPos(obj.pos.y)
+    this.width = formatWidth(obj.width)
     /*if (this.width > 500) {
       this.whidth = 500
     }*/
-    this.height = formatHeight(height)
-    this.title = title
-    this.html = html
-    this.closeBut = closeBut
+    this.height = formatHeight(obj.height)
+    this.title = obj.title
+    this.html = obj.html
+    this.closeBut = obj.closeBut
   }
 
   // Ouvrir le popup
