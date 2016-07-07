@@ -11,6 +11,9 @@ script:
 - standard
 - minify src/popup.js --output dist/popup.min.js
 - minify src/popup.css --output dist/popup.min.css
+cache:
+  directories:
+  - "/usr/lib/node_modules"
 deploy:
   provider: releases
   api_key:
