@@ -11,3 +11,10 @@ script:
 - standard
 - minify src/popup.js --output dist/popup.min.js
 - minify src/popup.css --output dist/popup.min.css
+deploy:
+  provider: releases
+  api_key:
+    secure: aj5OhpLCICPTHwnvwGy7wvY41txnG4k4xsvth51bZghbf/M1a9g10m9udzfIIYB6e76hhIHY4Ik13iIXP0uBLTOm8Hv9STxZ86BKAub8oDru4nGmkkT+z1kDViiwx7LcHIZdQW/aokUAludDa1ErcElCQl7IiBZV7cPQ1TGcy9AIkWKmydfBErTMC9FDtjvv6kLvluusmQNV80ngIpoeIi+CP3x9bKR5R4lvneY3UFSn0/EfnzwpEt9E47tvMSDdkZq/yJSGbg0sX5zYCu2epaET+8hVV/wOCw3CmsJPYOXcSo/WxLVvY5fh9fGyNPSSGu9j6B8tsVawJWzDz843rIV5MS3JbEX0Bn/zW3uwKC+a/CqS3oU91hvbp990iP3gfQB01qzj9Ndx8bjwsE6zkwneXDXEtXjwKqJENiDRhoMAUJy+emu32xm/U4O8M9gcoXz+gRnbWNZDBs4u3JUvhWR0NesLDMcvVTVm3R4JRephY86TcMSxGQhV0nF4D0QjQBxnRgMKbm5J4+vgYIFZQ5mjfWNmnZPqKssD1vwzVNECU921iby+eYxqVMo7N+EzDhxwAUcxXRCKQpfnBh2FsTRRWo0K+bl3qyE51BJ+G4KclmZ3XGiTnIM2E9hY6GYmRi7tZWy7BwHT6BPC7gTO9ZjpQ2SNRpOnvTUnL9ZqsDE=
+  file: dist/
+  on:
+    repo: Lunik/popupjs
