@@ -4,9 +4,9 @@ function _Popup () {
     this.posX = formatPos(obj.pos.x)
     this.posY = formatPos(obj.pos.y)
     this.width = formatWidth(obj.width)
-    /*if (this.width > 500) {
+    /* if (this.width > 500) {
       this.whidth = 500
-    }*/
+    } */
     this.height = formatHeight(obj.height)
     this.title = obj.title
     this.html = obj.html
