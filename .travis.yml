@@ -5,7 +5,7 @@ node_js:
 - '6'
 - '5'
 before_install:
-- npm install -g standard bower minifier
+- npm install
 - bower install
 script:
 - standard
@@ -13,7 +13,8 @@ script:
 - minify src/popup.css --output dist/popup.min.css
 cache:
   directories:
-  - "/usr/lib/node_modules"
+  - "$(pwd)/node_modules"
+  - "$(pwd)/bower_components"
 deploy:
   provider: releases
   api_key:
