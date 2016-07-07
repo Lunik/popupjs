@@ -13,8 +13,7 @@ Include this to your HTML
 
 ## Usage
 ```
-var Pop = new _Popup()
-Popup.init({
+$.popupjs.init({
   pos: {
     x: 0,
     y: 0
@@ -25,5 +24,5 @@ Popup.init({
   html: '<p>My popup</p>',
   closeBut: true
 })
-Popup.draw()
+$.popupjs.draw()
 ```

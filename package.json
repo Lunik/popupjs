@@ -1,0 +1,23 @@
+{
+  "name": "popupjs",
+  "description": "JS module to create modal / popup windows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lunik/popupjs.git"
+  },
+  "author": "Lunik <guillaume.lunik@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lunik/popupjs/issues"
+  },
+  "homepage": "https://github.com/Lunik/popupjs#readme",
+  "standard": {
+    "globals": [
+      "$"
+    ]
+  }
+}

@@ -85,3 +85,5 @@ function _Popup () {
     return formatHeight(pos)
   }
 }
+
+$.popupjs = new _Popup()
