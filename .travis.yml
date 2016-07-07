@@ -18,3 +18,4 @@ deploy:
   file: dist/
   on:
     repo: Lunik/popupjs
+    tags: true
