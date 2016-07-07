@@ -1,0 +1,13 @@
+notifications:
+  email: false
+language: node_js
+node_js:
+- '6'
+- '5'
+before_install:
+- npm install -g standard bower minifier
+- bower install
+script:
+- standard
+- minify src/popup.js --output dist/popup.min.js
+- minify src/popup.css --output dist/popup.min.css
