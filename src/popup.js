@@ -9,7 +9,7 @@ function _Popup () {
     } */
     this.height = formatHeight(obj.height)
     this.title = obj.title
-    this.html = obj.html.clone()
+    this.html = obj.html.clone(true, true)
     this.closeBut = obj.closeBut
   }
 
