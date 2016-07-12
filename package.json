@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "bower": "^1.7.9",
-    "minifier": "^0.7.1",
+    "minifier": "^0.8.0",
     "standard": "^7.1.2"
   }
 }
