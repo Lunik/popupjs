@@ -23,6 +23,6 @@
   "dependencies": {
     "bower": "^1.7.9",
     "minifier": "^0.8.0",
-    "standard": "^8.0.0"
+    "standard": "^9.0.2"
   }
 }
